@@ -9,6 +9,8 @@ namespace LINQExamples
     public class GameData
     {
         public string GameID { get; set; } // Key Field
+
+        public string random;
         public string GameName { get; set; }
 
         public override string ToString()
